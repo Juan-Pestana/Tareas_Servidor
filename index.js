@@ -10,6 +10,15 @@ const express = require('express');
 const app = express();
 
 //habilitar CORS
+const whitelist = [process.env.DOMAIN_LOCAL, process.env.DOMAIN_REMOTE]
+const corsOptions = {
+    origin: (origin, cb) => {
+        const originIsWhitelisted = whitelist.includes(origin)
+        cb(null, originIsWhitelisted)
+    },
+    credentials: true
+}
+
 app.use(cors())
 
 //Habilitar express.json
