@@ -19,7 +19,7 @@ Uso Intensivo de useContext y useReducer para la gestión del Estado Global
 
 ## Estilos
 
-Se utiliza la ++++++++++++ Estilos, ++++++++++++
+Se utiliza únicamente CSS para los Estilos
 
 ## Available Scripts
 
