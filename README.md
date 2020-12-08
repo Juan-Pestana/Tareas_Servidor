@@ -4,9 +4,11 @@
 Servidor en Express, para la applicación de gestión de tareas
 
 
-Este proyecto, hace uso de [Create React App](https://github.com/facebook/create-react-app) y se ha realizado con fines foromativos.  
+Este proyecto, hace uso de Express, y se ha realizado con fines foromativos.  
 
 Tareas se trata de una Single Page FullStack App (MERN Stack) para la gestión de tareas y proyectos
+
+accede al cliente en el siguiente [link](https://github.com/Juan-Pestana/Tareas_Cliente)
 
 ## Aprendizaje
 
