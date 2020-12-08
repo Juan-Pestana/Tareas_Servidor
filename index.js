@@ -38,7 +38,7 @@ app.use('/api/tareas', require('./routes/tareas.routes'));
 
 
 //arrancando la app
-app.listen(process.env.PORT || 4000, '0.0.0.0')
+app.listen(`${process.env.PORT}` || 4000, '0.0.0.0')
 
 // app.listen(process.env.PORT || 4000, '0.0.0.0', () =>{
 //     console.log(`el servidor está funcionando en el puerto ${port}`)
